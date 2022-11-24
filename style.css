@@ -5,12 +5,11 @@
 body {
   background: #4bcdbc;
   color: #575F7D;
-  font-family: 'Lora', serif;
-  font-size: 17px;
-  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
 }
 h1 {
   color: #575F7D;
@@ -24,7 +23,7 @@ h2 {
   font-weight: 500;
 }
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
   color: #6B72E1;
   font-weight: 600;
@@ -72,7 +71,9 @@ a:hover {
 .img-circle {
   border-radius: 50%;
   width: 100px;
-  height: 100px;}
+  height: 100px;
+  border: 2px solid #555;
+}
 .btn-blue {
   background-color: #6B72E1;
   color: white;
